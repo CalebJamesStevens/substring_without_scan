@@ -1,3 +1,4 @@
+``` rb
 #Split string into array
 #brute force down the list join every word.length elemtents togehter and check if it is equal to word
 #if equal to word add to hash 1 points
@@ -33,3 +34,4 @@ end
 s = gets.chomp
 puts s
 p substring(s.to_s, dictionary)
+```
